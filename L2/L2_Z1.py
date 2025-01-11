@@ -13,7 +13,10 @@ print(square(number))
 
 #3
 def max_of_two(x,y):
-    return max(x,y)
+    if x > y:
+        return x
+    else:
+        return y
 x = 99
 y = 76
 print(max_of_two(x,y))
