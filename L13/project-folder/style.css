@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: "Beaufort";
+    src: url(assets/beaufortforlol-bold.otf) format("truetype");
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #d1e8e2;
+  }
+  
+  header {
+    position: sticky;
+    top: 0;
+  }
+  
+  .header {
+    background-color: #2C3531;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .header ul {
+    list-style: none;
+    display: flex;
+    white-space: nowrap;
+  }
+  
+  .header li {
+    margin: 0 5px;
+  }
+  
+  .header a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .header a:hover {
+    background-color: #116466;
+  }
+  
+  .header img {
+    padding: 7px;
+    padding-top: 2px;
+}
+  
+  .name {
+    font-size: 40px;
+    font-family: 'Beaufort';
+    display: flex;
+    align-items: center;
+  }
+  
+  .mainp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .me {
+    padding-bottom: 10px;
+  }
+  
+  .me img {
+    border-radius: 20px;
+  }
+  
+  .media {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .media a {
+    transition: transform 0.2s;
+  }
+  
+  .media a:hover {
+    transform: scale(1.2);
+  }
+  
+  .media a:active {
+    transform: scale(0.7);
+  }
+  
+  .about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  .about h2 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+  }
+
+  .about p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+
+  footer {
+    background-color: #576961;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .portfolio {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-item img {
+    border-radius: 5px;
+  }
+  
+  .portfolio-item h3 {
+    margin: 10px 0 5px;
+    font-size: 1.5rem;
+  }
+  
+  .portfolio-item p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #555;
+    max-inline-size: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .portfolio-item a {
+    color: #2C3531;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .skills {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .skillset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .skill {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .skill:hover {
+    transform: translateY(-5px);
+  }
+  
+  .skill i {
+    font-size: 3rem;
+    color: #2C3531;
+    margin-bottom: 10px;
+  }
+  
+  .skill h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+  
+  .skill p {
+    font-size: 1rem;
+    color: #555;
+  }
